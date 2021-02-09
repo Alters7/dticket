@@ -14,7 +14,7 @@ module.exports = {
   guildOnly: true,
   execute(message, args) {
     const client = message.client;
-    // for pancake backdoor let roleID = "722569576789049384";
+    // for p bd: let roleID = "722569576789049384";
     let roleID = "725843561496576062";
     let isBotOwner = message.author.id == '287700519726612482';
     // command starts here
